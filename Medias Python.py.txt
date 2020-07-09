@@ -1,0 +1,13 @@
+Listas + For 
+
+disciplinas = [["Infra", 4,8], ["switch", 7,7], ["projetos", 6,7], ["python", 3,8]]
+mediaGeral = 0
+
+for disciplina in disciplinas:
+	media=(disciplina[1] + disciplina[2])/2
+	print("A media da discplina " + disciplina[0] + " é: " + str(media))
+	
+	mediaGeral = mediaGeral+ disciplina[1] + disciplina[2]
+	
+mediaGeral = mediaGeral/8
+print("A media geral é: " + str(mediaGeral))
